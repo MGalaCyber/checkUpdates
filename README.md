@@ -1,3 +1,11 @@
+<div align="center">
+  <a href="https://www.npmjs.com/package/@mgalacyber/package-notifier">
+    <img src="https://github.com/MGalaCyber/package-notifier/assets/87995243/0fa03c9f-97b4-4dac-8a93-4f6e1ab315ae"></img>
+  </a>
+
+[![https://nodei.co/npm/@mgalacyber/package-notifier.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/@mgalacyber/package-notifier.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/@mgalacyber/package-notifier)
+</div>
+
 # PACKAGE NOTIFIER
 
 **Package Notifier** is a simple utility that notifies users in the terminal when a package has been updated to a new version. Stay informed about the latest changes in your dependencies effortlessly.
