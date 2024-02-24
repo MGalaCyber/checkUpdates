@@ -1,6 +1,6 @@
-# PACKAGE CHECKER (NOTIFY)
+# PACKAGE NOTIFIER
 
-Package Checker is a simple utility that notifies users in the terminal when a package has been updated to a new version. Stay informed about the latest changes in your dependencies effortlessly.
+**Package Notifier** is a simple utility that notifies users in the terminal when a package has been updated to a new version. Stay informed about the latest changes in your dependencies effortlessly.
 
 ## Features
 - 🚀 Instantly receive notifications in the terminal about package updates.
@@ -10,32 +10,29 @@ Package Checker is a simple utility that notifies users in the terminal when a p
 ## Installation
 npm:
 ```bash
-$ npm install @mgalacyber/package-checker
+$ npm install @mgalacyber/package-notifier
 ```
 yarn:
 ```bash
-$ yarn add @mgalacyber/package-checker
+$ yarn add @mgalacyber/package-notifier
 ```
 
 ## Simple to Use
 ## CommonJs (CJS) syntax
 ```js
-const packageChecker = require("@mgalacyber/package-checker");
+const packageNotifier = require("@mgalacyber/package-notifier");
 ```
 ## ECMAScript Modules (ESM) syntax
 ```ts
-import packageChecker from "@mgalacyber/package-checker";
+import packageNotifier from "@mgalacyber/package-notifier";
 ```
 
 ## Example
 ```js
-const version = require("./package.json").version;
+const packageFile = require("./package.json");
 
-packageChecker({
-    packageName: "@mgalacyber/package-checker",
-    currentVersion: version
-});
+packageNotifier(packageFile);
 ```
 
 ## How It Works
-Package Checker compares the installed versions of your project's dependencies with the latest versions available on the npm registry. If updates are found, it provides clear and concise notifications in the terminal, making it easy for you to take action.
+**Package Notifier** compares the installed versions of your project's dependencies with the latest versions available on the npm registry. If updates are found, it provides clear and concise notifications in the terminal, making it easy for you to take action.

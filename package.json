@@ -1,5 +1,5 @@
 {
-  "name": "@mgalacyber/package-checker",
+  "name": "@mgalacyber/package-notifier",
   "version": "1.0.0",
   "description": "Keep track of changes in your dependencies to ensure you are always using the latest and greatest.",
   "main": "src/index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MGalaCyber/package-checker.git"
+    "url": "git+https://github.com/MGalaCyber/package-notifier.git"
   },
   "keywords": [
     "package-checker",
@@ -23,9 +23,9 @@
   "author": "MGalaCyber",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/MGalaCyber/package-checker/issues"
+    "url": "https://github.com/MGalaCyber/package-notifier/issues"
   },
-  "homepage": "https://github.com/MGalaCyber/package-checker#readme",
+  "homepage": "https://github.com/MGalaCyber/package-notifier#readme",
   "dependencies": {
     "@mgalacyber/termbox": "^1.0.0",
     "axios": "^1.6.7",
